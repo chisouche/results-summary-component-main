@@ -1,0 +1,171 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: none;
+  box-shadow: 10px 10px 10px 5px rgba(48, 59, 90, 0.5);
+  border-radius: 20px;
+}
+
+.content_p {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  flex: 1;
+  height: 100%;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.results_t {
+  color: hsl(241, 100%, 89%);
+}
+
+.circle_s {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 46px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content_w {
+  flex: 1;
+}
+
+.attribution {
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+.circle_s h2 {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.circle_s p {
+  margin: 0;
+  font-size: 18px;
+  color: hsl(252, 100%, 67%);
+}
+
+.text-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.text {
+  font-size: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: hsl(241, 100%, 89%);
+}
+
+.great {
+  color: hsl(0, 0%, 100%);
+}
+
+.content_w {
+  flex: 1;
+  height: 100%;
+  border-radius: 20px;
+  margin-left: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sum {
+  color: hsl(224, 30%, 27%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.scores {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.scores_grade {
+  border-radius: 10px;
+  border: 10px solid transparent;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.scores_grade svg {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.move {
+  margin-left: auto;
+  margin-right: 10px;
+  color: #000;
+}
+
+.red {
+  background-color: hsla(0, 100%, 67%, 0.2);
+  color: hsl(0, 100%, 67%);
+}
+
+.yellow {
+  background-color: hsla(39, 100%, 56%, 0.2);
+  color: hsl(39, 100%, 56%);
+}
+
+.green {
+  background-color: hsla(166, 100%, 37%, 0.2);
+  color: hsl(166, 100%, 37%);
+}
+
+.blue {
+  background-color: hsla(234, 85%, 45%, 0.2);
+  color: hsl(234, 85%, 45%);
+}
+
+.continue_btn {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 85%;
+  height: 55px;
+  background-color: hsl(224, 30%, 27%);
+  border-style: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=ouput.css.map */
